@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Scripart 지원</title>
+<style>
+:root { --paper:#F3ECDF; --card:#FAF6EE; --ink:#2B2420; --muted:#7A6E64; --line:#E2D8C8; --accent:#C9563E; }
+@media (prefers-color-scheme: dark) {
+  :root { --paper:#1E1A17; --card:#27221E; --ink:#EDE6DA; --muted:#A89C90; --line:#3A332D; --accent:#E07A60; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  word-break: keep-all; overflow-wrap: anywhere; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 72px; }
+h1, h2 { font-family: "Noto Serif KR", "AppleMyungjo", "Batang", serif; font-weight: 700; line-height: 1.35; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 36px 0 10px; }
+p { margin: 0 0 12px; }
+ul { margin: 0 0 12px; padding-left: 20px; }
+li { margin-bottom: 6px; }
+li::marker { color: var(--muted); }
+.date { color: var(--muted); margin-bottom: 28px; }
+nav { margin-bottom: 32px; font-size: 14px; }
+a { color: var(--accent); }
+.links { list-style: none; padding: 0; }
+.mail { font-size: 20px; margin: 4px 0 16px; }
+.links a { display:block; padding:16px 18px; background:var(--card); border:1px solid var(--line);
+  border-radius: 14px; color: var(--ink); text-decoration: none; font-size: 17px; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">Scripart 약관</a></nav>
+<h1>Scripart 지원</h1>
+<p>궁금한 점이나 고장 신고는 메일로 보내 주세요.</p>
+<p class="mail"><a href="mailto:support@doreshtanakh.com">support@doreshtanakh.com</a></p>
+<p>쓰시는 기기(iPhone·iPad·Mac 등)와 운영체제 버전, 앱 버전, 겪은 일을 함께 적어 주시면 빨리 살펴볼 수 있습니다.
+녹음 파일이나 기록 내용은 보내지 않으셔도 됩니다.</p>
+
+<h2>자주 묻는 질문</h2>
+<p><b>녹음이 서버로 가나요?</b><br>아니요. 받아 적기와 요약·필기 정리는 모두 기기 안의 AI 모델로 처리합니다.
+녹음과 기록을 개발자 서버로 보내지 않습니다.</p>
+<p><b>회원 가입이 필요한가요?</b><br>아니요. 가입이나 로그인 없이 바로 씁니다.</p>
+<p><b>여러 기기에서 같은 기록을 보려면?</b><br>설정에서 iCloud Drive 같은 내 폴더를 고르면, 내가 정한 암호로 암호화해 서버 없이 기기끼리 맞춥니다.</p>
+<p><b>정리가 오래 걸려요.</b><br>기기 안에서 처리하므로 녹음 길이와 기기 성능에 따라 몇 분 걸릴 수 있습니다.</p>
+<p><b>앱을 지우면 기록은 어떻게 되나요?</b><br>기록은 기기 안에만 있으므로 앱을 지우면 함께 지워집니다. 동기화 폴더를 쓰고 있었다면 그 폴더의 암호화된 사본은 남습니다.</p>
+<p><b>요금이 있나요?</b><br>1.0.0은 모든 기능이 무료입니다.</p>
+
+<h2>약관</h2>
+<ul class="links"><li><a href="terms.html">이용약관</a></li><li><a href="privacy.html">개인정보처리방침</a></li></ul>
+
+<h2 lang="en">English</h2>
+<p lang="en">For questions or bug reports, email <a href="mailto:support@doreshtanakh.com">support@doreshtanakh.com</a>.
+Scripart transcribes and summarizes recordings on your device; recordings are not sent to our servers.</p>
+
+</main>
+</body>
+</html>
